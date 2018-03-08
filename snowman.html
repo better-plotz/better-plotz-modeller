@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Plotz Modeller - Minecraft Snowman Generator</title>
+	<meta name="description" content="Giant Snowman Generator for Minecraft with hat, carrot nose and buttons. Simply adjust the size slider to preview, then build."/>
+	<meta name="keywords"	 content="Plotz,Minecraft,snow,snowman,generator,model,modeller,hollow,voxel,blocks,html5"/>
+	<meta name="robots"      content="index,follow"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/plotz.css" />
+	<script type="text/javascript">var touch='ontouchstart' in window?1:0, pto;</script>
+	<script type="text/javascript" src="js/PlotzSnowman.js"></script>
+<style type="text/css">
+h1 {
+	font-size:16px;
+	margin:0;
+}
+</style>
+</head>
+
+<body>
+<canvas id="pcan"></canvas>
+<div id="pcon"></div>
+<div id="pbc"></div>
+<div id="pslrl"></div>
+<div id="pslkn"></div>
+<div id="ppro"></div>
+
+<div class="pvrl" id="pvrl0"></div>
+<div class="pvkn" id="pvkn0"></div>
+
+<div class="pvrl" id="pvrl1"></div>
+<div class="pvkn" id="pvkn1"></div>
+
+<div class="pvrl" id="pvrl2"></div>
+<div class="pvkn" id="pvkn2"></div>
+
+<div class="pvrl" id="pvrl3"></div>
+<div class="pvkn" id="pvkn3"></div>
+
+<div id="pslin"></div>
+<div class="pvin" id="pvin0">1</div>
+<div class="pvin" id="pvin1">2</div>
+<div class="pvin" id="pvin2">3</div>
+<div class="pvin" id="pvin3">4</div>
+
+<div id="pev"></div>
+<div id="pmen"></div>
+<div id="pctl">
+	<div class="pctlpr" id="tl0">Body size</div><div class="pctlt" id="b0"><div class="pctlbn">-</div></div><div class="pctlt" id="st0"><div class="pctlsz" id="sz0"></div></div><div class="pctlt" id="b1"><div class="pctlbn">+</div></div><div class="clr"></div>
+</div>
+<div id="ptb"></div>
+<div id="pslbn0"><div class="pctlbn">+</div></div><div id="pslbn1"><div class="pctlbn">-</div></div>
+<div class="pvt" id="pv0bn0"><div class="pctlbn" id="d0">-</div></div>
+<div class="pvt" id="pv0bn1"><div class="pctlbn" id="i0">+</div></div>
+<div class="pvt" id="pv1bn0"><div class="pctlbn" id="d1">-</div></div>
+<div class="pvt" id="pv1bn1"><div class="pctlbn" id="i1">+</div></div>
+<div class="pvt" id="pv2bn0"><div class="pctlbn" id="d2">-</div></div>
+<div class="pvt" id="pv2bn1"><div class="pctlbn" id="i2">+</div></div>
+<div class="pvt" id="pv3bn0"><div class="pctlbn" id="d3">-</div></div>
+<div class="pvt" id="pv3bn1"><div class="pctlbn" id="i3">+</div></div>
+<div id="pvl">
+<div class="ptbt48" id="pvlhd"><div class="ptbbn">&lt;&lt;</div></div>
+<div id="pvlp"></div>
+</div>
+<div id="plinst" style="position:absolute;left:4px;top:44px;background-color:#ffffff;padding:10px;font-size:14px;width:232px;border-radius:4px;">
+	<h1>Plotz Snowman Generator</h1>
+	<br>Click the <strong>Snowman</strong> button above for home page and MORE models.<br><br>Drag bottom slider to adjust diameter of snowman body.<br><br>Don't forget you can switch between 2D and 3D mode and zoom in both modes.<br><br><strong>click to close</strong>
+<div style="position:absolute;top:-13px;right:20px"><img src="images/inst-arrow.png" width="11" height="6"></div>
+</div>
+<script>
+document.getElementById('plinst').addEventListener('click', function(e) {
+	document.getElementById('plinst').style.display = 'none';
+}, false);
+</script>
+</div>
+</body>
+</html>

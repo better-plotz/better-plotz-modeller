@@ -1,0 +1,23 @@
+body{padding:0px;margin:0px;background:url('/plotzhtml5/main-bgnd.gif');background-repeat:repeat-y;background-position:left top;}
+#header{height:100px;background:url('/plotzhtml5/header-bgnd.jpg');background-color:#000000;background-repeat:no-repeat;background-position:left top;border-bottom:2px solid black;}
+#leftcol{position:absolute;top:0px;left:-182px;}
+#content{position:relative;margin:12px 12px 12px 194px;font-family:helvetica,arial,sans-serif;min-height:640px;}
+#content h1{font:bold 24px helvetica,arial,sans-serif;margin:0px;}
+#content h2{font:20px helvetica,arial,sans-serif;margin:0px;}
+#social{position:absolute;top:-50px;right:0px;width:200px}
+.clr{clear:both;}
+.model{display:inline;float:left;width:182;height:240px;margin:0px 10px 10px 0px;text-align:center;background:#f8f8f8;border-radius:4px;box-shadow:0px 0px 4px #444444;cursor:pointer;}
+.model div{width:164px;height:180px;margin:9px;}
+.model img{width:164px;height:180px;}
+.model a{font:normal 16px helvetica,arial,sans-serif;color:#444444;text-decoration:none;}
+#footer{padding:20px;color:#ffffff;font:normal 11px arial,sans-serif;background:#444488;}
+#footer a{color:#fff;}
+.ad1{margin:10px 0}
+.cf:after{content:"";display:table;clear:both;}
+.main_wrap{}
+@media screen and (max-width:639px){#leftcol{display:none;}
+#content{margin:12px 12px 12px 12px}
+body{background-image:none;background-color:#fff;}
+}
+@media screen and (max-width:539px){#social{display:none;}
+}
