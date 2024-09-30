@@ -1,0 +1,30 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 900px;
+    margin: 50px auto;
+}
+
+main > a {
+    width: 200px;
+    height: 275px;
+    margin: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    user-select: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main img {
+    border-radius: 10px 10px 0 0;
+    width: 200px;
+    height: 200px;
+}
